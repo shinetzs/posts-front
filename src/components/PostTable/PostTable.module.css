@@ -1,0 +1,58 @@
+/* src/components/PostTable/PostTable.module.css */
+.tableContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.postsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: hsl(145, 85%, 18%);
+}
+
+.postsTable th,
+.postsTable td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 33.3%;
+  max-width: 200px;
+  min-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.postsTable td {
+  word-wrap: break-word;
+}
+
+.tableBodyWrapper {
+  max-height: 250px;
+  min-height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.noData {
+  text-align: center;
+  padding: 1rem;
+  font-style: italic;
+  color: #666;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;
+}

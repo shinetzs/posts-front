@@ -1,0 +1,36 @@
+/* src/components/CreatePostForm/CreatePostForm.module.css */
+.createPostContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+}
+
+.createInput {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.createButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+}
+
+.createButton:hover {
+  background-color: #27ae60;
+}

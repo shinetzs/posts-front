@@ -1,0 +1,5 @@
+/* src/components/PostList/PostList.module.css */
+.postListContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}

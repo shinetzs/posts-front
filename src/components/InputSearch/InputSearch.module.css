@@ -1,0 +1,18 @@
+/* src/components/InputSearch/InputSearch.module.css */
+.searchContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchInput {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.searchButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
