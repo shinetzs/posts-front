@@ -27,9 +27,8 @@ const postSlice = createSlice({
         state.posts.push(action.payload);
       })
       .addCase(deletePost.fulfilled, (state, action) => {
-        state.posts = state.posts.filter(
-          (post) => post.id !== action.payload.id
-        );
+        const id = Number(action.payload);
+        state.posts = state.posts.filter((post) => post.id !== id);
       });
   },
 });

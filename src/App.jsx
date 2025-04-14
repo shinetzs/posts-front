@@ -1,15 +1,13 @@
-import React from 'react'
-import './App.css'
-import PostList from './components/PostList/PostList'
+import React from 'react';
+import './App.css';
+import PostList from './components/PostList/PostList';
 
 function App() {
-
-
   return (
     <>
-    <PostList />
+      <PostList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

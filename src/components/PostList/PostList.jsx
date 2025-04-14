@@ -24,9 +24,7 @@ const PostList = () => {
   };
 
   const handleDelete = (id) => {
-    dispatch(deletePost(id)).then(() => {
-      dispatch(fetchPosts());
-    });
+    dispatch(deletePost(id));
   };
 
   const handleInputChange = (e) => {
